@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import {HelloWorld} from "@react-vite-library/ui/dist/HelloWorld"
+import {SimpleCard} from "@awesomecards/ui";
+import {HelloWorld} from "@react-vite-library/ui";
 
 function App() {
   return (
     <div className="App">
-      <HelloWorld />
+      <SimpleCard url={''} title={'Tile'} text={'Text'}/>
+        <HelloWorld/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

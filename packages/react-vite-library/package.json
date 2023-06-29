@@ -2,6 +2,7 @@
   "name": "@react-vite-library/ui",
   "version": "0.0.0",
   "scripts": {
+    "start": "pnpm build --watch",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"

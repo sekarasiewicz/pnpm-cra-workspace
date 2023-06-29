@@ -44,6 +44,8 @@ export const SimpleCard = ({
       <Button type="primary">Button SimpleCard</Button>
       {title && <h5 style={titleStyles}>{title}</h5>}
       <p style={textStyles}>{text}</p>
+      <p style={textStyles}>{text}</p>
+      <p style={textStyles}>{text}</p>
     </a>
   );
 };

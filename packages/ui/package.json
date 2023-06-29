@@ -10,7 +10,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
+    "build": "rm -rf dist && tsup src/index.ts --format esm,cjs --dts --external react",
     "test": "echo \"Testing ui package\""
   },
   "keywords": [],

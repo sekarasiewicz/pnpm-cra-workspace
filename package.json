@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd apps/frontend && pnpm start",
+    "start": "nx run frontend:start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,8 @@
     "eslint-plugin-react-refresh": "^0.4.1",
     "react-refresh": "^0.14.0",
     "tsup": "^7.1.0",
-    "typescript": "^5.1.3"
+    "typescript": "^5.1.3",
+    "nx": "16.4.0",
+    "nx-cloud": "latest"
   }
 }

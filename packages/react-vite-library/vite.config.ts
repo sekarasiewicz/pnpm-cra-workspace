@@ -2,9 +2,15 @@ import react from '@vitejs/plugin-react';
 import path from 'node:path';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
+import macrosPlugin from 'vite-plugin-babel-macros';
+import NodeGlobalsPolyfillPlugin from "@esbuild-plugins/node-globals-polyfill";
 
 export default defineConfig({
   plugins: [
+    macrosPlugin(),
+    NodeGlobalsPolyfillPlugin({
+      buffer: true
+    }),
     react(),
     dts({
       insertTypesEntry: true,

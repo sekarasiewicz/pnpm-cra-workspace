@@ -20,7 +20,8 @@
   "devDependencies": {
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "antd": "^5.6.3"
+    "antd": "^5.6.3",
+    "styled-components": "^6.0.1"
   },
   "dependencies": {
     "react": "^18.2.0"
@@ -28,7 +29,7 @@
   "peerDependencies": {
     "react": "^16.8.0 || 17.x",
     "react-dom": "^16.8.0 || 17.x",
-    "styled-components": "^5.0.0",
+    "styled-components": "^6.0.1",
     "antd": "^5.0.0"
   }
 }

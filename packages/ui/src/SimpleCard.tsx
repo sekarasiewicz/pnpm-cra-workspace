@@ -46,8 +46,8 @@ export const SimpleCard = ({
       {title && <h5 style={titleStyles}>{title}</h5>}
       <p style={textStyles}>{text}</p>
       <Cos>COS!</Cos>
-      <Cos>COS!</Cos>
     </a>
+
   );
 };
 

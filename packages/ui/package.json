@@ -21,7 +21,9 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "antd": "^5.6.3",
-    "styled-components": "^6.0.1"
+    "styled-components": "^6.0.1",
+    "esbuild-css-modules-plugin": "^2.7.1",
+    "esbuild-sass-plugin": "^2.10.0"
   },
   "dependencies": {
     "react": "^18.2.0"

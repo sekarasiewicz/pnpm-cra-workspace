@@ -1,0 +1,13 @@
+.cos {
+    &.cos--success {
+        color: green;
+    }
+
+    &.cos--warning {
+        color: yellow;
+    }
+
+    &.cos--error {
+        color: orange;
+    }
+}

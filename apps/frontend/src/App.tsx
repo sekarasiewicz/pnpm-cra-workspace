@@ -1,19 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import {SimpleCard} from "@awesomecards/ui";
-import {ThemeProvider} from "styled-components";
-
-const additional = {
-    main: '#FFFF00',
-    surface: '#FFFFB3',
-    border: '#26293c',
-}
+import styles from './App.module.css';
+import s from './App.module.scss';
 
 function App() {
+    console.log('styles 11', styles)
   return (
     <div className="App">
-      <ThemeProvider theme={additional}>
       <SimpleCard url={''} title={'Tile'} text={'Text'}/>
+        <div className={styles.cos}><h1>Cosiek</h1></div>
+        <div className={s.cos}><h1>Ktosiek SCSS</h1></div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -28,7 +25,6 @@ function App() {
           Learn React
         </a>
       </header>
-      </ThemeProvider>
     </div>
   );
 }
